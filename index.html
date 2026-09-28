@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfolio multimedia dan graphic designer.">
+<title>Portfolio — Creative Designer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <a href="#home" class="logo">J<span>.</span></a>
+  <nav id="nav">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+    <a href="#portfolio">Portfolio</a><a href="#services">Services</a><a href="#contact">Contact</a>
+  </nav>
+  <button class="menu" id="menuBtn" aria-label="Menu">☰</button>
+</header>
+
+<main>
+<section id="home" class="hero section">
+  <div class="hero-copy reveal">
+    <p class="eyebrow"></p>
+    <h1>CREATIVE <span> DIRECTOR</span></h1>
+    <p class="lead">Saya Hari Maulana alias jelov seorang creative director yang fokus pada desain visual, branding, social media, dan kebutuhan multimedia dengan tampilan modern.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="#portfolio">Lihat Portfolio ↗</a>
+      <a class="btn ghost" href="#contact">Hubungi Saya</a>
+    </div>
+  </div>
+  <div class="hero-art reveal">
+    <div class="orb"></div><div class=""><small></small></div>
+    <div class=""><br><b></b></div>
+    <div class="">
+          <img src="fotokeren.png" alt="fotohari" style="width: 100%; height: 100%; object-fit: cover; border-radius: inherit;">
+</div>
+        <br><span></span></div>
+  </div>
+</section>
+
+<section id="about" class="section about">
+  <div class="section-head reveal"><p class="eyebrow"></p><h2>ABOUT<br><span></span></h2></div>
+  <div class="about-grid">
+    <div class="about-text reveal"><p>Saya memiliki ketertarikan pada dunia multimedia dan desain grafis. Saya senang mengubah konsep sederhana menjadi visual yang menarik, komunikatif, dan memiliki karakter.</p><p></p></div>
+    <div class="stats reveal"><div><b>05+</b><span>Tahun Experience</span></div><div><b>800+</b><span>Project Selesai</span></div><div><b>100+</b><span>Client</span></div><div><b>10+</b><span>Creative Skill</span></div></div>
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <div class="section-head reveal"><p class="eyebrow"></p><h2>SKILLS<br><span></span></h2></div>
+  <div class="skills-grid reveal">
+    <div class="skill"><strong>Adobe Photoshop</strong><div><i style="width:92%"></i></div><small>92%</small></div>
+    <div class="skill"><strong>Adobe Illustrator</strong><div><i style="width:88%"></i></div><small>88%</small></div>
+    <div class="skill"><strong>Adobe Premiere Pro</strong><div><i style="width:82%"></i></div><small>82%</small></div>
+    <div class="skill"><strong>After Effects</strong><div><i style="width:76%"></i></div><small>76%</small></div>
+    <div class="skill"><strong>Blender</strong><div><i style="width:85%"></i></div><small>85%</small></div>
+    <div class="skill"><strong>Photography</strong><div><i style="width:80%"></i></div><small>80%</small></div>
+  </div>
+</section>
+
+<section id="portfolio" class="section portfolio">
+  <div class="section-head reveal"><p class="eyebrow"></p><h2>SELECTED WORK<br><span></span></h2></div>
+  <div class="filters reveal"><button class="active" data-filter="all">All</button><button data-filter="branding">Branding</button><button data-filter="social">Social Media</button><button data-filter="poster">Poster</button></div>
+  <div class="work-grid">
+    <article class="work reveal" data-cat="branding"><div class="thumb t1"style="position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center;">
+    <img src="Desain1.jpg" alt="Desain Brand" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; z-index: 1;">
+    ><span>BRAND<br>IDENTITY</span></div><div><h3>BRAND IDENTITY</h3><p>Branding / Visual Identity</p></div></article>
+<article class="work reveal" data-cat="social">
+  <div class="thumb t2" style="position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center;">
+    <img src="Desain2.jpg" alt="Social Media Campaign" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; z-index: 1;">
+    <span>SOSMED<br>CAMPAIGN</span>
+  </div>
+  <div>
+    <h3>SOSMED CAMPAIGN</h3>
+    <p>Social Media / Content</p>
+  </div>
+</article>
+
+ <article class="work reveal" data-cat="social">
+  <div class="thumb t2" style="position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center;">
+    <img src="Desain4.jpg" alt="EVENT POSTER" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; z-index: 1;">
+    <span>EVENT<br>POSTER</span>
+  </div>
+  <div>
+    <h3>EVENT POSTER</h3>
+    <p>Poster / Content</p>
+  </div>
+</article>
+
+  <article class="work reveal" data-cat="social">
+  <div class="thumb t2" style="position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center;">
+    <img src="Videomapping.jpg" alt="VISUAL JOCKEY" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; z-index: 1;">
+    <span>VISUAL<br>JOCKEY</span>
+  </div>
+  <div>
+    <h3>VISUAL JOCKEY</h3>
+    <p> Video Mapping</p>
+  </div>
+</article>
+<article class="work reveal" data-cat="social">
+  <div class="thumb t2" style="position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center;">
+    <img src="Editor.jpg" alt="VISUAL JOCKEY" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; z-index: 1;">
+    <span>VIDEO<br>EDITOR</span>
+  </div>
+  <div>
+    <h3>VIDEO EDITOR</h3>
+    <p> Editor</p>
+  </div>
+</article>
+
+<article class="work reveal" data-cat="social">
+  <div class="thumb t2" style="position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center;">
+    <img src="Camera.jpg" alt="VISUAL JOCKEY" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; z-index: 1;">
+    <span>CAMERA<br>PERSON</span>
+  </div>
+  <div>
+    <h3>VIDEOGRAPHY</h3>
+    <p> Camera Person</p>
+  </div>
+</article>
+  </div>
+</section>
+
+<section id="services" class="section">
+  <div class="section-head reveal"><p class="eyebrow"></p><h2>SERVICES<br><span></span></h2></div>
+  <div class="services reveal">
+    <div><b>01</b><h3>Graphic Design</h3><p>Poster, Banner, Social Media, Promotional Material, dan Kebutuhan visual lainnya.</p></div>
+    <div><b>02</b><h3>Brand Identity</h3><p>Logo, visual identity, brand guideline, dan aset komunikasi visual.</p></div>
+    <div><b>03</b><h3>Multimedia</h3><p>Video Editing, Motion Graphic, Visual Jockey, dan Broadcast.</p></div>
+  </div>
+</section>
+
+<section id="contact" class="section contact">
+  <div class="contact-box reveal">
+    <p class="eyebrow">CONTACT</p>
+    <h2>Have a project?<br><span>Let's make it happen.</span></h2>
+    <p>Ceritakan ide atau kebutuhan project kamu. Saya siap berdiskusi dan membantu mewujudkannya.</p>
+    <div class="contact-links">
+      <a href="mailto:emailkamu@example.com">✉ jelovisual@gmail.com</a>
+      <a href="https://wa.me/6289674978847" target="_blank">♡WhatsApp</a>
+      <a href="https://www.instagram.com/jelov.24?stkn=MWZ2YmhzMHIxMjBqNA==" target="_blank">◇Instagram</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><span>© 2026 — Creative Portfolio</span><span>Designed by Hari.</span></footer>
+<script src="script.js"></script>
+</body>
+</html>
